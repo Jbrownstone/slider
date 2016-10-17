@@ -21653,6 +21653,7 @@
 	  };
 	
 	  Slider.prototype.onChange = function onChange(state) {
+	    console.log("lol");
 	    var props = this.props;
 	    var isNotControlled = !('value' in props);
 	    if (isNotControlled) {
